@@ -8,7 +8,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <meta name="supported-color-schemes" content="light dark">
+  <style>
 
+    :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         /* body, center, table {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         } */
+         .darkmode {
+          background-color: #fffffe !important;
+        } 
+      }
+
+
+
+  </style>
   <style type="text/css">
     #outlook a {
       padding: 0;
@@ -208,20 +226,6 @@
     }
   </style>
   </style>
-  <style>
-    :root {
-      color-scheme: light dark;
-      supported-color-schemes: light dark;
-    }
-
-    @media (prefers-color-scheme: dark) {
-
-
-      .darkmode {
-        background-color: white !important;
-      }
-    }
-  </style>
 
   <!--[if (gte mso 9)|(IE)]>
 		<style type="text/css">
@@ -349,7 +353,7 @@
 
       <!-- BANNER START -->
       <!--[if gte mso 9]></td></tr></table>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600" >
           <tr>
             <td class="darkmode" style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
 <![endif]-->
@@ -359,7 +363,7 @@
           <table align="center"
             background="'https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8d2e2fd4-97e6-db3c-57c2-f877dac50adb.jpg"
             border="0" cellpadding="0" cellspacing="0" role="presentation"
-            style="background:url('https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8d2e2fd4-97e6-db3c-57c2-f877dac50adb.jpg') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;width:100%;background-color: #085054;">
+            style="background:url('https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8d2e2fd4-97e6-db3c-57c2-f877dac50adb.jpg') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;width:100%; background-color: #085054;">
             <tbody>
               <tr>
                 <td style="direction:ltr;font-size:0px;padding:20px 0 20px 0;text-align:center;">
@@ -977,8 +981,9 @@
       <div
         style="background:url('https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8e4f2312-c085-1d92-cf19-42c61bbfe984.jpg') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;background-color: white;Margin:0px auto;max-width:600px;">
         <div style="line-height:0;font-size:0;">
-          <table align="center" background="https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8e4f2312-c085-1d92-cf19-42c61bbfe984.jpg" border="0" cellpadding="0" cellspacing="0"
-            role="presentation"
+          <table align="center"
+            background="https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8e4f2312-c085-1d92-cf19-42c61bbfe984.jpg"
+            border="0" cellpadding="0" cellspacing="0" role="presentation"
             style="background:url('https://mcusercontent.com/d8ac3f7b2938d61adc9684d1c/images/8e4f2312-c085-1d92-cf19-42c61bbfe984.jpg') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;width:100%;background-color: white">
             <tbody>
               <tr>
@@ -1163,7 +1168,7 @@
         </tr>
       </table>
       
-      <table align="center" border="0" cellpadding="0" cellspacing="0" class="divider-container-outlook" style="width:600px;" width="600px">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" class="divider-container-outlook">
 
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
@@ -1176,9 +1181,9 @@
               <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
 
                 <!--[if mso | IE]>
-            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+            <table  role="presentation" border="0" cellpadding="0" cellspacing="0">
               <tr>
-            <td class="" style="direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <td  style="display:inline-block;vertical-align:top;width:100%;">
           <![endif]-->
                 <div class="mj-outlook-group-fix"
                   style="font-size:0px;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
@@ -1200,8 +1205,7 @@
                 <!--[if mso | IE]>
                   <table  align="center" role="presentation" border="0" cellpadding="0" cellspacing="0">
         <tr>
-            <td 
-               class="" style="vertical-align:top;width:100%;direction:ltr;display:inline-block;width:100%;" width="100%" >
+            <td style="vertical-align:top;display:inline-block;" >
           <![endif]-->
                 <div class="mj-column-per-100 mj-outlook-group-fix"
                   style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
@@ -1217,14 +1221,10 @@
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px 0px;word-break:break-word;">
-
                         <!--[if mso | IE]>
               </td>
               <td>
-            <![endif]-->
-
-
-
+          <![endif]-->
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
                           style="float:none;display:inline-table;">
                           <tr>
@@ -1246,7 +1246,7 @@
                         </table>
                         <!--[if mso | IE]>
               </td>
-            
+              
               <td>
             <![endif]-->
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
